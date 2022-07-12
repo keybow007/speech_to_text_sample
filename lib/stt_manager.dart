@@ -30,11 +30,11 @@ class SttManager {
   }
 
   void errorListener(SpeechRecognitionError error) {
-    statusController.sink.add("error: ${error.errorMsg} - ${error.permanent}");
+    statusController.add("error: ${error.errorMsg} - ${error.permanent}");
   }
 
   void statusListener(String status) {
-    statusController.sink.add(status);
+    statusController.add(status);
   }
 
   void startRecording() async {
