@@ -45,5 +45,12 @@
 	</array>
 	<key>UIViewControllerBasedStatusBarAppearance</key>
 	<false/>
+	<!--https://pub.dev/packages/speech_to_text#ios -->
+	<key>NSSpeechRecognitionUsageDescription</key>
+    <string>Speech Recognition is required for this app</string>
+    <key>NSMicrophoneUsageDescription</key>
+    <string>Your microphone is required for this app</string>
+	<key>CADisableMinimumFrameDurationOnPhone</key>
+	<true/>
 </dict>
 </plist>
